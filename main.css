@@ -7,6 +7,6 @@ main {
   min-height: 800px;
 }
 footer {
-  background-color: gray;
+  background-color: rgb(174, 174, 174);
   height: 60px;
 }
