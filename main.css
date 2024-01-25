@@ -1,10 +1,23 @@
 header {
   height: 250px;
-  background-color: rgb(229, 191, 121);
+  background-color: rgb(248, 211, 143);
   border-radius: 10px;
 }
 main {
   min-height: 800px;
+}
+nav {
+  & ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    & li {
+      display: inline-block;
+      &:hover {
+        background-color: lightsalmon;
+      }
+    }
+  }
 }
 footer {
   background-color: rgb(174, 174, 174);
