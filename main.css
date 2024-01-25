@@ -1,0 +1,12 @@
+header {
+  height: 250px;
+  background-color: rgb(229, 191, 121);
+  border-radius: 10px;
+}
+main {
+  min-height: 800px;
+}
+footer {
+  background-color: gray;
+  height: 60px;
+}
